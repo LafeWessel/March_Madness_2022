@@ -40,7 +40,7 @@ Apply scoring algorithm to determine how well the model performs.
 
 ## Commands
 
-### Start Pip
+### Start Pip Venv
 
 source ./bin/activate
 
