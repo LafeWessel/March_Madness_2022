@@ -10,3 +10,7 @@ etc/*
 pip-selfcheck.json
 share/*
 .ipynb_checkpoints/*
+
+
+# ignore zipped files
+*.zip
