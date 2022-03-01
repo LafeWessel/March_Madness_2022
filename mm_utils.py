@@ -10,21 +10,23 @@ def calculate_score(data: pd.DataFrame):
     assert "Cinderella" in data.columns
     assert "Number of Tournament Wins" in data.columns
 
+    # reset index
+    df = data.copy()
+    df.reset_index(drop=True, inplace=True)
+
     score = 0
     # calculate the score
     for i in range(0,10):
 
         # calculate for top 10
-        score += (10-i) * data.at[i,'Number of Tournament Wins']
+        score += (10-i) * df.at[i,'Number of Tournament Wins']
         
         # account for cinderella teams
-        if data.at[i,'Cinderella'] == 1:
+        if df.at[i,'Cinderella'] == 1:
             score += 5
     # end for
     return score
-
-
-
+# end def
 
 if __name__ == "__main__":
     print("Running mm_utils.py")
@@ -42,7 +44,6 @@ if __name__ == "__main__":
     df = df.append({"Cinderella":1,"Number of Tournament Wins":0}, ignore_index=True) #3 score += 5
     df = df.append({"Cinderella":0,"Number of Tournament Wins":2}, ignore_index=True) #2 score += 4
     df = df.append({"Cinderella":1,"Number of Tournament Wins":1}, ignore_index=True) #1 score += 6
-    df.reset_index(inplace=True, drop=True)
     
     # total score = 20 + 14 + 8 + 33 + 30 + 10 + 0 + 5 + 4 + 6 = 130
     expected = 130
