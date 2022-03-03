@@ -14,3 +14,6 @@ share/*
 
 # ignore zipped files
 *.zip
+
+# ignore auto-generate model graph image
+model.png
