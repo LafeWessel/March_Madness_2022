@@ -4,7 +4,7 @@ import pandas as pd
 def calculate_score(data: pd.DataFrame):
     """Calculate the score for a given set of 10 choices, index 0 is top prediction, 9 lowest"""
     # assumes that data has 10 entries, 0-9, 0 for top, 9 for bottom
-    assert data.shape[0] == 10
+    assert data.shape[0] >= 10
 
     # assumes that `Cinderella` and `Number of Tournament Wins` are in columns
     assert "Cinderella" in data.columns
