@@ -1,0 +1,226 @@
+,score,layer_sizes,epochs,learning_rate,weight_0,weight_1,weight_2,weight_3,weight_4,weight_5,weight_6,loss_fn,validation
+0,154.0,"[32, 32, 32]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4167
+1,230.0,"[32, 32, 32]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+2,167.0,"[32, 32, 32]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4219
+3,102.0,"[32, 32, 32]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.1927
+4,91.0,"[32, 32, 32]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5208
+5,179.0,"[32, 32, 32]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3906
+6,182.0,"[32, 32, 32]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3281
+7,173.0,"[32, 32, 32]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4531
+8,110.0,"[32, 32, 32]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.2083
+9,180.0,"[32, 32, 32]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+10,215.0,"[32, 32, 32]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4948
+11,219.0,"[32, 32, 32]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3802
+12,225.0,"[32, 32, 32]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3958
+13,142.0,"[32, 32, 32]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4479
+14,161.0,"[32, 32, 32]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+15,147.0,"[16, 32, 16]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4062
+16,210.0,"[16, 32, 16]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4115
+17,189.0,"[16, 32, 16]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4531
+18,113.0,"[16, 32, 16]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4635
+19,98.0,"[16, 32, 16]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+20,175.0,"[16, 32, 16]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3646
+21,156.0,"[16, 32, 16]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4375
+22,168.0,"[16, 32, 16]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5521
+23,186.0,"[16, 32, 16]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+24,99.0,"[16, 32, 16]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5573
+25,199.0,"[16, 32, 16]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5417
+26,151.0,"[16, 32, 16]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4375
+27,199.0,"[16, 32, 16]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4375
+28,110.0,"[16, 32, 16]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.1719
+29,153.0,"[16, 32, 16]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4844
+30,171.0,"[64, 32, 16]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.401
+31,188.0,"[64, 32, 16]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3385
+32,207.0,"[64, 32, 16]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.2865
+33,103.0,"[64, 32, 16]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.1875
+34,193.0,"[64, 32, 16]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5833
+35,173.0,"[64, 32, 16]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4323
+36,189.0,"[64, 32, 16]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3958
+37,189.0,"[64, 32, 16]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4271
+38,116.0,"[64, 32, 16]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.25
+39,179.0,"[64, 32, 16]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5417
+40,208.0,"[64, 32, 16]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4635
+41,181.0,"[64, 32, 16]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.2448
+42,195.0,"[64, 32, 16]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3594
+43,98.0,"[64, 32, 16]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.125
+44,161.0,"[64, 32, 16]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.6042
+45,89.0,"[16, 16, 16]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.474
+46,188.0,"[16, 16, 16]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5208
+47,171.0,"[16, 16, 16]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+48,209.0,"[16, 16, 16]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5573
+49,98.0,"[16, 16, 16]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+50,164.0,"[16, 16, 16]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.526
+51,180.0,"[16, 16, 16]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4896
+52,185.0,"[16, 16, 16]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.474
+53,102.0,"[16, 16, 16]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.1094
+54,132.0,"[16, 16, 16]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+55,178.0,"[16, 16, 16]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5052
+56,166.0,"[16, 16, 16]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5365
+57,165.0,"[16, 16, 16]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3906
+58,147.0,"[16, 16, 16]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4635
+59,116.0,"[16, 16, 16]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5
+60,162.0,"[32, 32]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4427
+61,150.0,"[32, 32]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3542
+62,211.0,"[32, 32]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4219
+63,110.0,"[32, 32]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.1823
+64,159.0,"[32, 32]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+65,150.0,"[32, 32]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5
+66,181.0,"[32, 32]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4271
+67,183.0,"[32, 32]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4219
+68,109.0,"[32, 32]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.224
+69,95.0,"[32, 32]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5
+70,175.0,"[32, 32]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3646
+71,190.0,"[32, 32]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4271
+72,211.0,"[32, 32]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3802
+73,102.0,"[32, 32]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.151
+74,161.0,"[32, 32]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5208
+75,165.0,"[16, 16, 32]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4948
+76,205.0,"[16, 16, 32]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4427
+77,188.0,"[16, 16, 32]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3073
+78,123.0,"[16, 16, 32]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.375
+79,125.0,"[16, 16, 32]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5417
+80,181.0,"[16, 16, 32]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3177
+81,194.0,"[16, 16, 32]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4583
+82,201.0,"[16, 16, 32]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4479
+83,154.0,"[16, 16, 32]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.474
+84,154.0,"[16, 16, 32]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5417
+85,219.0,"[16, 16, 32]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5104
+86,188.0,"[16, 16, 32]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5365
+87,208.0,"[16, 16, 32]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4531
+88,102.0,"[16, 16, 32]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.2604
+89,164.0,"[16, 16, 32]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5417
+90,178.0,"[16, 8, 16]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5833
+91,168.0,"[16, 8, 16]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4062
+92,172.0,"[16, 8, 16]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4635
+93,159.0,"[16, 8, 16]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4375
+94,81.0,"[16, 8, 16]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+95,138.0,"[16, 8, 16]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4896
+96,191.0,"[16, 8, 16]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4844
+97,176.0,"[16, 8, 16]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4688
+98,114.0,"[16, 8, 16]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3281
+99,143.0,"[16, 8, 16]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5573
+100,161.0,"[16, 8, 16]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5052
+101,153.0,"[16, 8, 16]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5365
+102,147.0,"[16, 8, 16]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4948
+103,95.0,"[16, 8, 16]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3646
+104,92.0,"[16, 8, 16]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+105,192.0,"[32, 32, 8]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5156
+106,195.0,"[32, 32, 8]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5208
+107,175.0,"[32, 32, 8]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3177
+108,98.0,"[32, 32, 8]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.1354
+109,115.0,"[32, 32, 8]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5833
+110,174.0,"[32, 32, 8]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.474
+111,207.0,"[32, 32, 8]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5156
+112,179.0,"[32, 32, 8]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4583
+113,192.0,"[32, 32, 8]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3958
+114,134.0,"[32, 32, 8]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5833
+115,186.0,"[32, 32, 8]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.474
+116,170.0,"[32, 32, 8]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5156
+117,185.0,"[32, 32, 8]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+118,103.0,"[32, 32, 8]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.224
+119,132.0,"[32, 32, 8]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+120,147.0,"[32, 16, 8]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3229
+121,194.0,"[32, 16, 8]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+122,186.0,"[32, 16, 8]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.401
+123,94.0,"[32, 16, 8]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.2552
+124,98.0,"[32, 16, 8]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+125,167.0,"[32, 16, 8]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5521
+126,210.0,"[32, 16, 8]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4896
+127,170.0,"[32, 16, 8]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3906
+128,127.0,"[32, 16, 8]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3021
+129,145.0,"[32, 16, 8]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5
+130,171.0,"[32, 16, 8]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5
+131,198.0,"[32, 16, 8]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5469
+132,189.0,"[32, 16, 8]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4375
+133,110.0,"[32, 16, 8]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3437
+134,139.0,"[32, 16, 8]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+135,130.0,"[7, 7, 7, 7]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5781
+136,149.0,"[7, 7, 7, 7]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+137,175.0,"[7, 7, 7, 7]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5469
+138,120.0,"[7, 7, 7, 7]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4115
+139,98.0,"[7, 7, 7, 7]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+140,124.0,"[7, 7, 7, 7]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+141,178.0,"[7, 7, 7, 7]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5365
+142,161.0,"[7, 7, 7, 7]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+143,187.0,"[7, 7, 7, 7]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5677
+144,98.0,"[7, 7, 7, 7]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+145,143.0,"[7, 7, 7, 7]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5365
+146,161.0,"[7, 7, 7, 7]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4479
+147,121.0,"[7, 7, 7, 7]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5521
+148,164.0,"[7, 7, 7, 7]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4375
+149,142.0,"[7, 7, 7, 7]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5417
+150,104.0,"[8, 7, 7]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5208
+151,146.0,"[8, 7, 7]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3854
+152,121.0,"[8, 7, 7]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5052
+153,157.0,"[8, 7, 7]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5677
+154,98.0,"[8, 7, 7]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+155,125.0,"[8, 7, 7]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+156,169.0,"[8, 7, 7]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4219
+157,186.0,"[8, 7, 7]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+158,98.0,"[8, 7, 7]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+159,122.0,"[8, 7, 7]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+160,127.0,"[8, 7, 7]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.474
+161,167.0,"[8, 7, 7]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5938
+162,154.0,"[8, 7, 7]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4323
+163,144.0,"[8, 7, 7]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4844
+164,98.0,"[8, 7, 7]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+165,140.0,"[20, 15, 10, 7]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5312
+166,190.0,"[20, 15, 10, 7]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5521
+167,164.0,"[20, 15, 10, 7]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3385
+168,177.0,"[20, 15, 10, 7]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4375
+169,98.0,"[20, 15, 10, 7]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+170,143.0,"[20, 15, 10, 7]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4375
+171,154.0,"[20, 15, 10, 7]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.526
+172,212.0,"[20, 15, 10, 7]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5052
+173,155.0,"[20, 15, 10, 7]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5
+174,161.0,"[20, 15, 10, 7]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+175,172.0,"[20, 15, 10, 7]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4323
+176,206.0,"[20, 15, 10, 7]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4948
+177,202.0,"[20, 15, 10, 7]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4271
+178,107.0,"[20, 15, 10, 7]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4531
+179,179.0,"[20, 15, 10, 7]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+180,172.0,"[20, 16, 12]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3698
+181,149.0,"[20, 16, 12]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5104
+182,169.0,"[20, 16, 12]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3594
+183,125.0,"[20, 16, 12]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3906
+184,98.0,"[20, 16, 12]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+185,148.0,"[20, 16, 12]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4323
+186,197.0,"[20, 16, 12]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5417
+187,203.0,"[20, 16, 12]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4844
+188,161.0,"[20, 16, 12]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.526
+189,165.0,"[20, 16, 12]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5208
+190,178.0,"[20, 16, 12]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.6042
+191,151.0,"[20, 16, 12]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4323
+192,179.0,"[20, 16, 12]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4583
+193,111.0,"[20, 16, 12]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3229
+194,149.0,"[20, 16, 12]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+195,166.0,"[16, 12, 8]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.6146
+196,176.0,"[16, 12, 8]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4219
+197,192.0,"[16, 12, 8]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5156
+198,102.0,"[16, 12, 8]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.401
+199,131.0,"[16, 12, 8]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+200,165.0,"[16, 12, 8]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5365
+201,194.0,"[16, 12, 8]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5312
+202,185.0,"[16, 12, 8]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3698
+203,109.0,"[16, 12, 8]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3177
+204,126.0,"[16, 12, 8]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+205,157.0,"[16, 12, 8]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5
+206,196.0,"[16, 12, 8]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5781
+207,206.0,"[16, 12, 8]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.474
+208,174.0,"[16, 12, 8]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5833
+209,95.0,"[16, 12, 8]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5417
+210,140.0,"[20, 16, 12, 8]",100,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4583
+211,172.0,"[20, 16, 12, 8]",100,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5469
+212,181.0,"[20, 16, 12, 8]",100,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4792
+213,98.0,"[20, 16, 12, 8]",100,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.3802
+214,73.0,"[20, 16, 12, 8]",100,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4427
+215,195.0,"[20, 16, 12, 8]",150,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5052
+216,181.0,"[20, 16, 12, 8]",150,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.6354
+217,211.0,"[20, 16, 12, 8]",150,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4896
+218,119.0,"[20, 16, 12, 8]",150,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4271
+219,98.0,"[20, 16, 12, 8]",150,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
+220,141.0,"[20, 16, 12, 8]",200,0.001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.4948
+221,178.0,"[20, 16, 12, 8]",200,0.002,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5417
+222,198.0,"[20, 16, 12, 8]",200,0.01,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5208
+223,91.0,"[20, 16, 12, 8]",200,0.05,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5781
+224,138.0,"[20, 16, 12, 8]",200,0.0001,0.5,0.5,0.5,2,2,3,3,sparse_categorical_crossentropy,0.5625
